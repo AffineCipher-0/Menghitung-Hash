@@ -1,0 +1,2 @@
+# Menghitung-Hash
+Menghitung Hash
