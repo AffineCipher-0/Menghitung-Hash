@@ -26,6 +26,6 @@ if password:
 else:
     print("Password tidak ditemukan.")
 
-# Dalam contoh di atas, kita menggunakan pendekatan Brute Force untuk menguraikan password dengan mencoba semua kemungkinan kombinasi karakter dalam password. Fungsi brute_force_password melakukan iterasi melalui semua kombinasi karakter yang mungkin menggunakan modul itertools. Setiap kombinasi karakter diubah menjadi string dan di-hash menggunakan algoritma MD5. Jika hash yang dihasilkan cocok dengan hash password yang diberikan, maka password ditemukan.
+# Mmenggunakan pendekatan Brute Force untuk menguraikan password dengan mencoba semua kemungkinan kombinasi karakter dalam password. Fungsi brute_force_password melakukan iterasi melalui semua kombinasi karakter yang mungkin menggunakan modul itertools. Setiap kombinasi karakter diubah menjadi string dan di-hash menggunakan algoritma MD5. Jika hash yang dihasilkan cocok dengan hash password yang diberikan, maka password ditemukan.
 
 # Perlu diingat bahwa Brute Force adalah metode yang sangat lambat dan tidak efisien, terutama untuk password yang lebih panjang atau kompleks. Dalam praktiknya, ada berbagai teknik dan algoritma yang lebih canggih yang digunakan dalam penguraian password, seperti serangan kamus (dictionary attack), serangan rainbow table, dan pengoptimalan serangan Brute Force menggunakan GPU.
